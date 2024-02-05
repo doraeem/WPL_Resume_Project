@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(230, 215, 197);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.profile-img{
+    width: 100px;
+    height:120px;
+    border: 3px solid white;
+    border-radius: 50% ;
+    float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(114, 23, 23);
+}
+.hearder-contact{
+    float:right;
+    padding: 30px;
+    
+
+}
+.hearder-contact a{
+    text-decoration: none;
+    color: rgb(65, 28, 28);
+    font-weight: bold;
+}
+.hearder-contact a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width:100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.left-div{
+    width:30%;
+    float:left;
+}
+.right-div{
+    width:70%;
+    float:right;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.bottom-container{
+    background-color: rgb(194, 147, 162);
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color:rgb(68, 3, 3);
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color:rgb(68, 3, 3);
+    margin-top: 20px;
+}
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    }
+    #share-buttons i {
+    font-size: 100px;
+    margin: 20px;
+    }
+    .facebook {
+    color: #3b5998;
+    }
+    .twitter {
+    color: #55acee;
+    }
+    .linkedin {
+    color: #0077b5;
+    }
+    .reddit {
+    color: #cb2027;
+    }
+    .whatsapp {
+    color: #25D366;
+    }
+    .telegram {
+    color: #229ED9;
+    }
+    .facebook, .twitter, .linkedin, .reddit, .whatsapp, .telegram {
+    opacity: 0.6;
+    }
+    .facebook:hover, .twitter:hover, .linkedin:hover, .reddit:hover, .whatsapp:hover, .telegram:hover {
+    opacity: 0.9;
+    }
